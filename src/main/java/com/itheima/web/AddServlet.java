@@ -18,7 +18,7 @@ public class AddServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println();
-
+        System.out.println();
         //1. 接收数据,request.getParameter 不能接收json的数据
        /* String brandName = request.getParameter("brandName");
         System.out.println(brandName);*/
